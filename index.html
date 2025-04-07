@@ -1,0 +1,124 @@
+<html>
+<head>
+	<title>🇻🇳Chào mừng bạn đến với KNT Repository🇻🇳</title>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+<base target="_blank"/> 
+
+<script type="text/javascript" src="./assets/menes.js"></script>
+<link rel="stylesheet" type="text/css" id="stylesheet">
+<script type="text/javascript">var agent=navigator.userAgent;var ios=agent.match(/.*; CPU (?:iPhone )?OS ([0-9_]*) like Mac OS X[;)]/);ios=ios==null?'7.0':ios[1].replace(/_/g,'.');var stylesheet=$("#stylesheet");if(ios.match(/^[78]($|\.)/)!=null){stylesheet.href("./assets/lotus.css")}else{stylesheet.href("./assets/legacy.css")}</script>
+
+</head>
+
+	<script type="text/javascript">
+		if (navigator.userAgent.search(/Cydia/) != -1)
+			document.write('<style type="text/css"> body { background: none !important; } </style>');
+	</script>
+
+<body class="pinstripe nolegacy">
+<panel>
+	
+	<block>
+		<button onClick="window.location.reload();">Home</button>
+		<head>
+		    <title>HTML marquee Tag</title>
+
+		    <style>
+		        #GFG {
+		            color: red;
+		            font-size: large;
+		        }
+		    </style>
+		</head>
+		<body>
+	    <marquee width="50%" id="GFG">
+	        🇻🇳 Kiều Như Trung Repository 🇻🇳
+	    </marquee>
+			</body>
+		
+</block>
+	
+<block>
+<input id="foo" value="https://kntios.github.io/khoa">
+<button class="btn" data-clipboard-target=#foo> Coppy Text</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.6.1/clipboard.min.js"></script>
+<script type="text/javascript">
+new Clipboard('.btn');
+</script>
+</block>
+<fieldset>
+	<a href="tiktok://"><img src="./icon/tiktok.png" class="icon"><div><div><label><p>Play TikTok</p></label></div></div></a>
+</fieldset>
+
+<script type="text/javascript"> 
+    var adfly_id = 10554431; 
+</script> 
+<script src="http://cdn.adf.ly/js/display.js"></script> 
+<block>
+    <script>
+        function accessURL() {
+            const inputData = document.getElementById("inputData").value; // Lấy giá trị từ input
+            const baseURL = "https://script.google.com/macros/s/AKfycbyIayKVd1Q874xj7hkPqaWpGuOElovuoWqaKAouYnhY5-sqf6aqt93O7I5d_nbT7kaFGQ/exec?"; // URL cơ bản
+            let selectedData = "";
+            
+            // Lấy giá trị từ radio button được chọn (chỉ có một)
+            const radioButtons = document.querySelectorAll('input[type="radio"]:checked');
+            if (radioButtons.length > 0) {
+                selectedData = radioButtons[0].value; // Giá trị của radio button được chọn
+            }
+
+            // Ghép cả giá trị vào URL với "hoanganh" ở giữa
+            const fullURL = baseURL + encodeURIComponent(selectedData) +'='+ encodeURIComponent(inputData);
+            
+            // Gửi yêu cầu mà không chuyển hướng
+            fetch(fullURL)
+                .then(response => {
+                    if (response.ok) {
+                        return response.text(); // Hoặc response.json() tùy thuộc vào định dạng mà bạn mong đợi
+                    }
+                    throw new Error('Network response was not ok.');
+                })
+                .then(data => {
+                    alert(`Thành công : ${data}`); // Hiển thị dữ liệu nhận được trong thông báo
+                })
+                .catch(error => {
+                    console.error('Có vấn đề với hoạt động fetch:', error);
+                    alert('Có lỗi xảy ra, vui lòng thử lại!'); // Thông báo khi có lỗi
+                });
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="inputData" placeholder="Nhập Link Gift muốn lưu" />
+				<button onclick="accessURL()">Save data</button>
+    <fieldset>
+        <label><input type="radio" name="data" value="gift_100" checked> Gift 100</label><br> <!-- Mặc định chọn -->
+        <label><input type="radio" name="data" value="gift_500"> Gift 500 </label><br>
+        <label><input type="radio" name="data" value="gift_3000"> Gift 3000</label><br>
+        <label><input type="radio" name="data" value="check_loi"> Check lại Link này</label><br>
+    </fieldset>
+
+    
+</body>
+</block>
+<fieldset>
+	<a href="https://www.icloud.com/shortcuts/fcc627611c044d17acbc6d85f3dd78b9"><img src="./icon/sc.png" class="icon"><div><div><label><p>Add shotcut gift 100</p></label><label class="url"><p></p></label></div></div></a>
+</fieldset>
+
+<fieldset>
+	<a href="https://www.icloud.com/shortcuts/8a7f855ea3f24335bd0e5d2f0daaee45"><img src="./icon/sc.png" class="icon"><div><div><label><p>Add shotcut gift 500</p></label><label class="url"><p></p></label></div></div></a>
+</fieldset>
+
+<fieldset>
+	<a href="https://www.icloud.com/shortcuts/e09343b5903a40aa98057ca292821688"><img src="./icon/sc.png" class="icon"><div><div><label><p>Add shotcut gift 3000</p></label><label class="url"><p></p></label></div></div></a>
+</fieldset>
+	</block>
+	<block>
+<figure>
+  <img src="./icon/qr.png" alt="Trulli" style="width:100%">
+</figure>
+</block>
+<footer> &copy; 2025 KNT All Rights Reserved.
+</panel>
+</body>
+</html>
